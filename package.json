@@ -1,0 +1,43 @@
+{
+  "name": "statix",
+  "version": "1.0.0",
+  "description": "Simple Static Site Generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && node index.js && http-server ./output -c-1",
+    "build": "gulp && node index.js",
+    "test": "eslint .",
+    "watch": "nodemon --config nodemon.json index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "ejs": "^3.1.5",
+    "flexsearch": "^0.6.32",
+    "fs-extra": "^9.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-identity": "^0.1.0",
+    "gulp-imagemin": "^7.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-webp": "^6.0.0",
+    "jsdom": "^16.4.0",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "showdown": "^1.9.1",
+    "stopword": "^1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "http-server": "^0.12.3",
+    "nodemon": "^2.0.7",
+    "pre-commit": "^1.2.2"
+  }
+}

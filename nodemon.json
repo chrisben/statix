@@ -1,0 +1,12 @@
+{
+  "verbose": false,
+  "ignore": [
+    "./node_modules/**/node_modules",
+    "./output/*",
+    ".git"
+  ],
+  "watch": [
+    "content/**/*.*",
+    "assets/output/app.min.js"
+  ]
+}
