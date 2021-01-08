@@ -1,6 +1,10 @@
 # Statix
 
-Simple static site generator.
+Simple static site generator, named after Statix the Gaulic god of websites.
+
+## Why another static generator?
+
+Most static sites generators are actually only aimed at blog sites. Real websites cannot rely on a single content blob for a webpage, because a page is not just an article, it has sections with content scattered in different places within the page.
 
 ## Functionalities
 
@@ -10,6 +14,7 @@ Simple static site generator.
 - i18n built-in: ability to handle content in multiple languages + translate content in layouts
 - Generates sitemap.xml + robots.txt
 - Generates redirect pages with HTML redirect meta for site migration, treated as 301 by Google
+- Generates a search index that allows search functionality for free within throughout your static website!
 
 ## Installation
 
